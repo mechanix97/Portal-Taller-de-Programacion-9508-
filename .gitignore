@@ -1,0 +1,56 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# build directories
+build
+movies/
+libs/Box2D-master/build/
+
+editor/\.vscode/
+
+build-QTEditorPortalV2-Descktop-Debug/
+
+editor/Debug/
+editor/QTEditorPortalV2.pro.user
+editor/QTEditorPortalV2.pro
+build-QTEditorPortalV2-Descktop-Debug/Makefile
+
+editor/editorv3\.config
+
+editor/editorv3\.creator
+
+editor/editorv3\.creator\.user
+
+editor/editorv3\.files
+
+editor/editorv3\.includes

@@ -1,0 +1,31 @@
+block:
+    friction: 0.5
+    
+bullet:
+    max_life_steps: 200
+    speed: 10.0
+   
+button:
+    friction: 0.7
+ 
+chell:
+    jumpspeed: 8
+    max_horizontal_speed: 6
+    horizontal_speed: 1.0
+    ray_zoom: 10000
+    
+launcher:
+    steps_per_launch: 50
+    
+pin:
+    time: 60
+    
+stage:
+    map_path: "../maps/"
+    
+world:
+    gravity_x: 0
+    gravity_y: -9.8
+    
+gameloop:
+    fps: 120

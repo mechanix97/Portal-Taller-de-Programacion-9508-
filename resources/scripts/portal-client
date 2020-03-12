@@ -1,0 +1,3 @@
+#!/bin/bash
+cd /usr/local/games/portal-2d/bin
+./portal-client $1

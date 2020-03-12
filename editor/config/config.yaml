@@ -1,0 +1,23 @@
+pin:
+  time: 60
+stage:
+  map_path: ../maps/
+gameloop:
+  fps: 120
+world:
+  gravity_y: 0
+  gravity_x: 0
+button:
+  friction: 0.7
+block:
+  friction: 0.5
+launcher:
+  steps_per_launch: 10
+bullet:
+  max_life_steps: 200
+  speed: 10
+chell:
+  horizontal_speed: 10
+  max_horizontal_speed: 200
+  ray_zoom: 10000
+  jumpspeed: 5

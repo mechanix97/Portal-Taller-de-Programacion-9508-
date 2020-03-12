@@ -1,0 +1,8 @@
+Para ejecutar el editor, abrir una terminal y ejecutar el archivo cmake.sh. Esto se puede hacer con:
+ - bash cmake.sh -ce 
+Este comando compila y ejecuta el editor. Pero si se quiere se puede solo compilar y dejar listo un ejecutable
+ - bash cmake.sh -c
+y luego ejecutar con:
+ - bash cmake.sh -e
+se puede eliminar los archivos ejecutando el comando:
+ - bash cmake.sh -clean

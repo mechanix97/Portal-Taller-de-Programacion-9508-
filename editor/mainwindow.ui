@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>978</width>
+    <height>590</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Editor de Escenarios</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="recursos.qrc">
+    <normaloff>:/resources/icono_editor.png</normaloff>:/resources/icono_editor.png</iconset>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QGraphicsView" name="graphicsView">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="mouseTracking">
+       <bool>false</bool>
+      </property>
+      <property name="tabletTracking">
+       <bool>false</bool>
+      </property>
+      <property name="focusPolicy">
+       <enum>Qt::StrongFocus</enum>
+      </property>
+      <property name="acceptDrops">
+       <bool>false</bool>
+      </property>
+      <property name="toolTip">
+       <string/>
+      </property>
+      <property name="statusTip">
+       <string/>
+      </property>
+      <property name="whatsThis">
+       <string/>
+      </property>
+      <property name="autoFillBackground">
+       <bool>true</bool>
+      </property>
+      <property name="verticalScrollBarPolicy">
+       <enum>Qt::ScrollBarAsNeeded</enum>
+      </property>
+      <property name="horizontalScrollBarPolicy">
+       <enum>Qt::ScrollBarAsNeeded</enum>
+      </property>
+      <property name="sizeAdjustPolicy">
+       <enum>QAbstractScrollArea::AdjustIgnored</enum>
+      </property>
+      <property name="interactive">
+       <bool>true</bool>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+      </property>
+      <property name="dragMode">
+       <enum>QGraphicsView::NoDrag</enum>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QLabel" name="label">
+        <property name="text">
+         <string>x:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QSpinBox" name="spinBoxX"/>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_2">
+        <property name="text">
+         <string>y:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QSpinBox" name="spinBoxY"/>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>978</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuEscenario">
+    <property name="title">
+     <string>Escenario</string>
+    </property>
+    <addaction name="actionNuevo_Escenario"/>
+    <addaction name="actionAbrir_Escenario"/>
+    <addaction name="actionGuardar_Escenario"/>
+   </widget>
+   <widget class="QMenu" name="menuInsertar">
+    <property name="title">
+     <string>Insertar</string>
+    </property>
+    <widget class="QMenu" name="menuBloque">
+     <property name="title">
+      <string>Bloque</string>
+     </property>
+     <widget class="QMenu" name="menuBloque_de_Metal_Diagonal">
+      <property name="title">
+       <string>Bloque de Metal Diagonal</string>
+      </property>
+      <addaction name="actionBloqueOriginal"/>
+      <addaction name="actionBloqueRotado_90"/>
+      <addaction name="actionBloqueRotado_180"/>
+      <addaction name="actionBloqueRotado_270"/>
+     </widget>
+     <addaction name="actionBloque_de_Roca"/>
+     <addaction name="actionBloque_de_Metal"/>
+     <addaction name="menuBloque_de_Metal_Diagonal"/>
+    </widget>
+    <widget class="QMenu" name="menuEmisor_de_Energia">
+     <property name="title">
+      <string>Emisor de Energia</string>
+     </property>
+     <addaction name="actionEmisorOriginal"/>
+     <addaction name="actionEmisor_Rotado_90"/>
+     <addaction name="actionEmisor_Rotado_180"/>
+     <addaction name="actionEmisor_Rotado_270"/>
+    </widget>
+    <widget class="QMenu" name="menuReceptor_de_Energia">
+     <property name="title">
+      <string>Receptor de Energia </string>
+     </property>
+     <addaction name="actionReceptor_Original"/>
+    </widget>
+    <widget class="QMenu" name="menuCompuerta">
+     <property name="title">
+      <string>Compuerta</string>
+     </property>
+     <addaction name="actionCompuerta_Regular"/>
+     <addaction name="actionCompuerta_AND"/>
+     <addaction name="actionCompuerta_OR"/>
+    </widget>
+    <widget class="QMenu" name="menuBarrera_de_Energia">
+     <property name="title">
+      <string>Barrera de Energia</string>
+     </property>
+     <addaction name="actionBarrera_Horizontal"/>
+     <addaction name="actionBarrera_Vertical"/>
+    </widget>
+    <addaction name="menuBloque"/>
+    <addaction name="menuEmisor_de_Energia"/>
+    <addaction name="menuReceptor_de_Energia"/>
+    <addaction name="menuCompuerta"/>
+    <addaction name="menuBarrera_de_Energia"/>
+    <addaction name="actionBoton"/>
+    <addaction name="actionRoca"/>
+    <addaction name="actionPersonaje"/>
+    <addaction name="actionFondo"/>
+   </widget>
+   <widget class="QMenu" name="menuHerramientas">
+    <property name="title">
+     <string>Herramientas</string>
+    </property>
+    <addaction name="actionAjustes_y_configuracion"/>
+   </widget>
+   <addaction name="menuEscenario"/>
+   <addaction name="menuInsertar"/>
+   <addaction name="menuHerramientas"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionPersonaje"/>
+   <addaction name="actionFondo"/>
+   <addaction name="actionPastel"/>
+   <addaction name="separator"/>
+   <addaction name="actionBloque_de_Roca"/>
+   <addaction name="actionBloque_de_Metal"/>
+   <addaction name="separator"/>
+   <addaction name="actionBloqueOriginal"/>
+   <addaction name="actionBloqueRotado_90"/>
+   <addaction name="actionBloqueRotado_180"/>
+   <addaction name="actionBloqueRotado_270"/>
+   <addaction name="separator"/>
+   <addaction name="actionEmisorOriginal"/>
+   <addaction name="actionEmisor_Rotado_90"/>
+   <addaction name="actionEmisor_Rotado_180"/>
+   <addaction name="actionEmisor_Rotado_270"/>
+   <addaction name="separator"/>
+   <addaction name="actionReceptor_Original"/>
+   <addaction name="separator"/>
+   <addaction name="actionCompuerta_Regular"/>
+   <addaction name="actionCompuerta_AND"/>
+   <addaction name="actionCompuerta_OR"/>
+   <addaction name="separator"/>
+   <addaction name="separator"/>
+   <addaction name="actionBarrera_Horizontal"/>
+   <addaction name="actionBarrera_Vertical"/>
+   <addaction name="separator"/>
+   <addaction name="actionBoton"/>
+   <addaction name="separator"/>
+   <addaction name="actionRoca"/>
+   <addaction name="actionAcido"/>
+  </widget>
+  <action name="actionNuevo_Escenario">
+   <property name="icon">
+    <iconset resource="recursos.qrc">
+     <normaloff>:/resources/nuevo.png</normaloff>:/resources/nuevo.png</iconset>
+   </property>
+   <property name="text">
+    <string>Nuevo Escenario</string>
+   </property>
+  </action>
+  <action name="actionAbrir_Escenario">
+   <property name="icon">
+    <iconset resource="recursos.qrc">
+     <normaloff>:/resources/abrir.png</normaloff>:/resources/abrir.png</iconset>
+   </property>
+   <property name="text">
+    <string>Abrir Escenario</string>
+   </property>
+  </action>
+  <action name="actionGuardar_Escenario">
+   <property name="icon">
+    <iconset resource="recursos.qrc">
+     <normaloff>:/resources/guardar.png</normaloff>:/resources/guardar.png</iconset>
+   </property>
+   <property name="text">
+    <string>Guardar Escenario</string>
+   </property>
+  </action>
+  <action name="actionBloque_de_Roca">
+   <property name="icon">
+    <iconset resource="recursos.qrc">
+     <normaloff>:/resources/bloqueRoca.png</normaloff>:/resources/bloqueRoca.png</iconset>
+   </property>
+   <property name="text">
+    <string>Bloque de Roca</string>
+   </property>
+  </action>
+  <action name="actionBloque_de_Metal">
+   <property name="icon">
+    <iconset resource="recursos.qrc">
+     <normaloff>:/resources/bloqueMetal.png</normaloff>:/resources/bloqueMetal.png</iconset>
+   </property>
+   <property name="text">
+    <string>Bloque de Metal</string>
+   </property>
+  </action>
+  <action name="actionBloque_de_Metal_en_Diagonal">
+   <property name="icon">
+    <iconset resource="recursos.qrc">
+     <normaloff>:/resources/bloquesMetalDiagonal.png</normaloff>:/resources/bloquesMetalDiagonal.png</iconset>
+   </property>
+   <property name="text">
+    <string>Bloque de Metal en Diagonal</string>
+   </property>
+  </action>
+  <action name="actionAcido">
+   <property name="icon">
+    <iconset resource="recursos.qrc">
+     <normaloff>:/resources/acido2.png</normaloff>:/resources/acido2.png</iconset>
+   </property>
+   <property name="text">
+    <string>Acido</string>
+   </property>
+  </action>
+  <action name="actionBoton">
+   <property name="icon">
+    <iconset resource="recursos.qrc">
+     <normaloff>:/resources/boton.png</normaloff>:/resources/boton.png</iconset>
+   </property>
+   <property name="text">
+    <string>Boton</string>
+   </property>
+  </action>
+  <action name="actionRoca">
+   <property name="icon">
+    <iconset resource="recursos.qrc">
+     <normaloff>:/resources/roca1.png</normaloff>:/resources/roca1.png</iconset>
+   </property>
+   <property name="text">
+    <string>Roca</string>
+   </property>
+  </action>
+  <action name="actionEmisor_de_Energia">
+   <property name="icon">
+    <iconset resource="recursos.qrc">
+     <normaloff>:/resources/emisorEnergia.png</normaloff>:/resources/emisorEnergia.png</iconset>
+   </property>
+   <property name="text">
+    <string>Emisor de Energia</string>
+   </property>
+  </action>
+  <action name="actionReceptor_de_Energia">
+   <property name="icon">
+    <iconset resource="recursos.qrc">
+     <normaloff>:/resources/receptorEnergia.png</normaloff>:/resources/receptorEnergia.png</iconset>
+   </property>
+   <property name="text">
+    <string>Receptor de Energia</string>
+   </property>
+  </action>
+  <action name="actionPersonaje">
+   <property name="icon">
+    <iconset resource="recursos.qrc">
+     <normaloff>:/resources/shell.png</normaloff>:/resources/shell.png</iconset>
+   </property>
+   <property name="text">
+    <string>Personaje</string>
+   </property>
+  </action>
+  <action name="actionFondo">
+   <property name="icon">
+    <iconset resource="recursos.qrc">
+     <normaloff>:/resources/fond.png</normaloff>:/resources/fond.png</iconset>
+   </property>
+   <property name="text">
+    <string>Fondo Nuevo</string>
+   </property>
+  </action>
+  <action name="actionBloqueOriginal">
+   <property name="icon">
+    <iconset resource="recursos.qrc">
+     <normaloff>:/resources/bloquesMetalDiagonal0.png</normaloff>:/resources/bloquesMetalDiagonal0.png</iconset>
+   </property>
+   <property name="text">
+    <string>Bloque Original</string>
+   </property>
+  </action>
+  <action name="actionBloqueRotado_90">
+   <property name="icon">
+    <iconset resource="recursos.qrc">
+     <normaloff>:/resources/bloquesMetalDiagonal90.png</normaloff>:/resources/bloquesMetalDiagonal90.png</iconset>
+   </property>
+   <property name="text">
+    <string>Bloque Rotado 90°</string>
+   </property>
+  </action>
+  <action name="actionBloqueRotado_180">
+   <property name="icon">
+    <iconset resource="recursos.qrc">
+     <normaloff>:/resources/bloquesMetalDiagonal180.png</normaloff>:/resources/bloquesMetalDiagonal180.png</iconset>
+   </property>
+   <property name="text">
+    <string>Bloque Rotado 180°</string>
+   </property>
+  </action>
+  <action name="actionBloqueRotado_270">
+   <property name="icon">
+    <iconset resource="recursos.qrc">
+     <normaloff>:/resources/bloquesMetalDiagonal270.png</normaloff>:/resources/bloquesMetalDiagonal270.png</iconset>
+   </property>
+   <property name="text">
+    <string>Bloque Rotado 270°</string>
+   </property>
+  </action>
+  <action name="actionEmisorOriginal">
+   <property name="icon">
+    <iconset resource="recursos.qrc">
+     <normaloff>:/resources/emisorEnergia0.png</normaloff>:/resources/emisorEnergia0.png</iconset>
+   </property>
+   <property name="text">
+    <string>Emisor Original</string>
+   </property>
+  </action>
+  <action name="actionEmisor_Rotado_90">
+   <property name="icon">
+    <iconset resource="recursos.qrc">
+     <normaloff>:/resources/emisorEnergia90.png</normaloff>:/resources/emisorEnergia90.png</iconset>
+   </property>
+   <property name="text">
+    <string>Emisor Rotado 90°</string>
+   </property>
+  </action>
+  <action name="actionEmisor_Rotado_180">
+   <property name="icon">
+    <iconset resource="recursos.qrc">
+     <normaloff>:/resources/emisorEnergia180.png</normaloff>:/resources/emisorEnergia180.png</iconset>
+   </property>
+   <property name="text">
+    <string>Emisor Rotado 180°</string>
+   </property>
+  </action>
+  <action name="actionEmisor_Rotado_270">
+   <property name="icon">
+    <iconset resource="recursos.qrc">
+     <normaloff>:/resources/emisorEnergia270.png</normaloff>:/resources/emisorEnergia270.png</iconset>
+   </property>
+   <property name="text">
+    <string>Emisor Rotado 270°</string>
+   </property>
+  </action>
+  <action name="actionReceptor_Original">
+   <property name="icon">
+    <iconset resource="recursos.qrc">
+     <normaloff>:/resources/receptorEnergia0.png</normaloff>:/resources/receptorEnergia0.png</iconset>
+   </property>
+   <property name="text">
+    <string>Receptor Original</string>
+   </property>
+  </action>
+  <action name="actionReceptor_Rotado_180">
+   <property name="icon">
+    <iconset resource="recursos.qrc">
+     <normaloff>:/resources/receptorEnergia180.png</normaloff>:/resources/receptorEnergia180.png</iconset>
+   </property>
+   <property name="text">
+    <string>Receptor Rotado 180°</string>
+   </property>
+  </action>
+  <action name="actionReceptor_Rotado_270">
+   <property name="icon">
+    <iconset resource="recursos.qrc">
+     <normaloff>:/resources/receptorEnergia270.png</normaloff>:/resources/receptorEnergia270.png</iconset>
+   </property>
+   <property name="text">
+    <string>Receptor Rotado 270°</string>
+   </property>
+  </action>
+  <action name="actionCompuerta_Regular">
+   <property name="icon">
+    <iconset resource="recursos.qrc">
+     <normaloff>:/resources/compuerta1.png</normaloff>:/resources/compuerta1.png</iconset>
+   </property>
+   <property name="text">
+    <string>Compuerta Regular</string>
+   </property>
+  </action>
+  <action name="actionCompuerta_AND">
+   <property name="icon">
+    <iconset resource="recursos.qrc">
+     <normaloff>:/resources/compuerta2.png</normaloff>:/resources/compuerta2.png</iconset>
+   </property>
+   <property name="text">
+    <string>Compuerta AND</string>
+   </property>
+  </action>
+  <action name="actionCompuerta_OR">
+   <property name="icon">
+    <iconset resource="recursos.qrc">
+     <normaloff>:/resources/compuerta3.png</normaloff>:/resources/compuerta3.png</iconset>
+   </property>
+   <property name="text">
+    <string>Compuerta OR</string>
+   </property>
+  </action>
+  <action name="actionBarrera_Horizontal">
+   <property name="icon">
+    <iconset resource="recursos.qrc">
+     <normaloff>:/resources/barreraDeEnergiaHorizontal.png</normaloff>:/resources/barreraDeEnergiaHorizontal.png</iconset>
+   </property>
+   <property name="text">
+    <string>Barrera Horizontal</string>
+   </property>
+  </action>
+  <action name="actionBarrera_Vertical">
+   <property name="icon">
+    <iconset resource="recursos.qrc">
+     <normaloff>:/resources/barreraDeEnergiaVertical.png</normaloff>:/resources/barreraDeEnergiaVertical.png</iconset>
+   </property>
+   <property name="text">
+    <string>Barrera Vertical</string>
+   </property>
+  </action>
+  <action name="actionReceptor_Rotado_90">
+   <property name="icon">
+    <iconset resource="recursos.qrc">
+     <normaloff>:/resources/receptorEnergia90.png</normaloff>:/resources/receptorEnergia90.png</iconset>
+   </property>
+   <property name="text">
+    <string>Receptor Rotado 90°</string>
+   </property>
+  </action>
+  <action name="actionPastel">
+   <property name="icon">
+    <iconset resource="recursos.qrc">
+     <normaloff>:/resources/cake.png</normaloff>:/resources/cake.png</iconset>
+   </property>
+   <property name="text">
+    <string>Pastel</string>
+   </property>
+  </action>
+  <action name="actionConfiguracion_de_Compuertas">
+   <property name="icon">
+    <iconset resource="recursos.qrc">
+     <normaloff>:/resources/configuracionCompuertas.png</normaloff>:/resources/configuracionCompuertas.png</iconset>
+   </property>
+   <property name="text">
+    <string>Configuracion de Compuertas</string>
+   </property>
+  </action>
+  <action name="actionConfiguracion_de_Personajes">
+   <property name="icon">
+    <iconset resource="recursos.qrc">
+     <normaloff>:/resources/configuracionCompuertas.png</normaloff>:/resources/configuracionCompuertas.png</iconset>
+   </property>
+   <property name="text">
+    <string>Configuracion de Personajes</string>
+   </property>
+  </action>
+  <action name="actionAjustes_y_configuracion">
+   <property name="icon">
+    <iconset resource="recursos.qrc">
+     <normaloff>:/resources/configuracionCompuertas.png</normaloff>:/resources/configuracionCompuertas.png</iconset>
+   </property>
+   <property name="text">
+    <string>Ajustes y configuracion</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="recursos.qrc"/>
+ </resources>
+ <connections/>
+</ui>

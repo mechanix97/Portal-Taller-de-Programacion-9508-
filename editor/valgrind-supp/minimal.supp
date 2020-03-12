@@ -1,0 +1,2612 @@
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   fun:strdup
+   fun:FcStrSetAdd
+   fun:FcStrSetAddLangs
+   fun:FcGetDefaultLangs
+   fun:FcGetDefaultLang
+   fun:FcFontSetList
+   fun:FcFontList
+   obj:/home/joacko/anaconda3/lib/libQt5XcbQpa.so.5.9.7
+   obj:/home/joacko/anaconda3/lib/libQt5Gui.so.5.9.7
+   fun:_ZN13QFontDatabase8findFontERK8QFontDefi
+   fun:_ZN13QFontDatabase4loadEPK12QFontPrivatei
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   fun:strdup
+   fun:FcGetDefaultLang
+   fun:FcFontSetList
+   fun:FcFontList
+   obj:/home/joacko/anaconda3/lib/libQt5XcbQpa.so.5.9.7
+   obj:/home/joacko/anaconda3/lib/libQt5Gui.so.5.9.7
+   fun:_ZN13QFontDatabase8findFontERK8QFontDefi
+   fun:_ZN13QFontDatabase4loadEPK12QFontPrivatei
+   fun:_ZNK12QFontPrivate15engineForScriptEi
+   obj:/home/joacko/anaconda3/lib/libQt5Gui.so.5.9.7
+   fun:_ZN9QTextLine13layout_helperEi
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   obj:/home/joacko/anaconda3/lib/libglib-2.0.so.0.5600.2
+   obj:/home/joacko/anaconda3/lib/libQt5Core.so.5.9.7
+   obj:/home/joacko/anaconda3/lib/libglib-2.0.so.0.5600.2
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   obj:/home/joacko/anaconda3/lib/libglib-2.0.so.0.5600.2
+   obj:*
+   obj:/home/joacko/anaconda3/lib/libglib-2.0.so.0.5600.2
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   obj:/home/joacko/anaconda3/lib/libxml2.so.2.9.9
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   obj:/home/joacko/anaconda3/lib/libdbus-1.so.3.24.0
+   obj:*
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   obj:/home/joacko/anaconda3/lib/libxml2.so.2.9.9
+   obj:*
+   obj:*
+   obj:/home/joacko/anaconda3/lib/libxml2.so.2.9.9
+   obj:/home/joacko/anaconda3/lib/libxml2.so.2.9.9
+   obj:/home/joacko/anaconda3/lib/libxml2.so.2.9.9
+   obj:/home/joacko/anaconda3/lib/libxml2.so.2.9.9
+   obj:*
+   obj:*
+   obj:*
+   obj:*
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   fun:strdup
+   obj:/usr/lib/x86_64-linux-gnu/libX11.so.6.3.0
+   obj:/usr/lib/x86_64-linux-gnu/libX11.so.6.3.0
+   fun:_XlcCreateLC
+   fun:_XlcUtf8Loader
+   fun:_XOpenLC
+   fun:_XlcCurrentLC
+   fun:XmbTextListToTextProperty
+   fun:_ZN10QXcbWindow14setWindowTitleERK7QString
+   fun:_ZN10QXcbWindow6createEv
+   fun:_ZNK15QXcbIntegration20createPlatformWindowEP7QWindow
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: indirect
+   fun:malloc
+   obj:/home/joacko/anaconda3/lib/libdbus-1.so.3.24.0
+   obj:*
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   obj:/home/joacko/anaconda3/lib/libglib-2.0.so.0.5600.2
+   obj:*
+   obj:/home/joacko/anaconda3/lib/libglib-2.0.so.0.5600.2
+   obj:*
+   obj:/home/joacko/anaconda3/lib/libglib-2.0.so.0.5600.2
+   obj:*
+   obj:/usr/lib/valgrind/memcheck-amd64-linux
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   fun:realloc
+   obj:/home/joacko/anaconda3/lib/libdbus-1.so.3.24.0
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   obj:/home/joacko/anaconda3/lib/libglib-2.0.so.0.5600.2
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   fun:strdup
+   fun:_XlcCreateLC
+   fun:_XlcUtf8Loader
+   fun:_XOpenLC
+   fun:_XlcCurrentLC
+   fun:XmbTextListToTextProperty
+   fun:_ZN10QXcbWindow14setWindowTitleERK7QString
+   fun:_ZN10QXcbWindow6createEv
+   fun:_ZNK15QXcbIntegration20createPlatformWindowEP7QWindow
+   fun:_ZN14QWindowPrivate6createEby
+   fun:_ZN14QWidgetPrivate10create_sysEybb
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   fun:strdup
+   fun:FcPopExpr
+   fun:FcPopBinary
+   fun:FcEndElement
+   obj:/home/joacko/anaconda3/lib/libxml2.so.2.9.9
+   obj:*
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   fun:strdup
+   fun:FcGetPrgname
+   fun:FcDefaultSubstitute
+   obj:/home/joacko/anaconda3/lib/libQt5XcbQpa.so.5.9.7
+   obj:/home/joacko/anaconda3/lib/libQt5Gui.so.5.9.7
+   fun:_ZN13QFontDatabase8findFontERK8QFontDefi
+   fun:_ZN13QFontDatabase4loadEPK12QFontPrivatei
+   fun:_ZNK12QFontPrivate15engineForScriptEi
+   obj:/home/joacko/anaconda3/lib/libQt5Gui.so.5.9.7
+   fun:_ZN9QTextLine13layout_helperEi
+   fun:_ZN11QTextLayout9endLayoutEv
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   obj:/home/joacko/anaconda3/lib/libglib-2.0.so.0.5600.2
+   obj:*
+   obj:/home/joacko/anaconda3/lib/libglib-2.0.so.0.5600.2
+   obj:*
+   obj:/usr/lib/valgrind/memcheck-amd64-linux
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   fun:FcFontSetCreate
+   fun:FcConfigCreate
+   fun:FcInitLoadOwnConfig
+   fun:FcInitLoadOwnConfigAndFonts
+   fun:FcConfigEnsure
+   fun:FcConfigInit
+   obj:/home/joacko/anaconda3/lib/libQt5XcbQpa.so.5.9.7
+   obj:/home/joacko/anaconda3/lib/libQt5Gui.so.5.9.7
+   fun:_ZN13QFontDatabase8findFontERK8QFontDefi
+   fun:_ZN13QFontDatabase4loadEPK12QFontPrivatei
+   fun:_ZNK12QFontPrivate15engineForScriptEi
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   fun:FcPtrListCreate
+   fun:FcConfigCreate
+   fun:FcInitLoadOwnConfig
+   fun:FcInitLoadOwnConfigAndFonts
+   fun:FcConfigEnsure
+   fun:FcConfigInit
+   obj:/home/joacko/anaconda3/lib/libQt5XcbQpa.so.5.9.7
+   obj:/home/joacko/anaconda3/lib/libQt5Gui.so.5.9.7
+   fun:_ZN13QFontDatabase8findFontERK8QFontDefi
+   fun:_ZN13QFontDatabase4loadEPK12QFontPrivatei
+   fun:_ZNK12QFontPrivate15engineForScriptEi
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   fun:FcPtrListCreate
+   fun:FcRuleSetCreate
+   fun:FcConfigParseAndLoadFromMemoryInternal
+   fun:_FcConfigParse
+   fun:FcInitLoadOwnConfig
+   fun:FcInitLoadOwnConfigAndFonts
+   fun:FcConfigEnsure
+   fun:FcConfigInit
+   obj:/home/joacko/anaconda3/lib/libQt5XcbQpa.so.5.9.7
+   obj:/home/joacko/anaconda3/lib/libQt5Gui.so.5.9.7
+   fun:_ZN13QFontDatabase8findFontERK8QFontDefi
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   fun:FcPtrListIterAdd
+   fun:FcEndElement
+   obj:/home/joacko/anaconda3/lib/libxml2.so.2.9.9
+   obj:*
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   fun:_FcStrSetAppend
+   fun:FcStrSetAddFilename
+   fun:_FcConfigParse
+   fun:FcEndElement
+   obj:/home/joacko/anaconda3/lib/libxml2.so.2.9.9
+   obj:*
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   fun:FcPtrListIterAdd
+   fun:FcConfigParseAndLoadFromMemoryInternal
+   fun:_FcConfigParse
+   fun:FcInitLoadOwnConfig
+   fun:FcInitLoadOwnConfigAndFonts
+   fun:FcConfigEnsure
+   fun:FcConfigInit
+   obj:/home/joacko/anaconda3/lib/libQt5XcbQpa.so.5.9.7
+   obj:/home/joacko/anaconda3/lib/libQt5Gui.so.5.9.7
+   fun:_ZN13QFontDatabase8findFontERK8QFontDefi
+   fun:_ZN13QFontDatabase4loadEPK12QFontPrivatei
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   fun:FcFontSetCreate
+   fun:FcConfigBuildFonts
+   fun:FcInitLoadOwnConfigAndFonts
+   fun:FcConfigEnsure
+   fun:FcConfigInit
+   obj:/home/joacko/anaconda3/lib/libQt5XcbQpa.so.5.9.7
+   obj:/home/joacko/anaconda3/lib/libQt5Gui.so.5.9.7
+   fun:_ZN13QFontDatabase8findFontERK8QFontDefi
+   fun:_ZN13QFontDatabase4loadEPK12QFontPrivatei
+   fun:_ZNK12QFontPrivate15engineForScriptEi
+   obj:/home/joacko/anaconda3/lib/libQt5Gui.so.5.9.7
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   fun:_FcStrSetAppend
+   fun:FcStrSetAdd
+   fun:FcStrSetAddLangs
+   fun:FcGetDefaultLangs
+   fun:FcGetDefaultLang
+   fun:FcFontSetList
+   fun:FcFontList
+   obj:/home/joacko/anaconda3/lib/libQt5XcbQpa.so.5.9.7
+   obj:/home/joacko/anaconda3/lib/libQt5Gui.so.5.9.7
+   fun:_ZN13QFontDatabase8findFontERK8QFontDefi
+   fun:_ZN13QFontDatabase4loadEPK12QFontPrivatei
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   obj:/home/joacko/anaconda3/lib/libglib-2.0.so.0.5600.2
+   obj:*
+   obj:/home/joacko/anaconda3/lib/libglib-2.0.so.0.5600.2
+   obj:*
+   obj:*
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: indirect
+   fun:malloc
+   fun:realloc
+   obj:/home/joacko/anaconda3/lib/libdbus-1.so.3.24.0
+   obj:*
+   obj:*
+   obj:/home/joacko/anaconda3/lib/libdbus-1.so.3.24.0
+   obj:*
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   fun:FcStrCanonAbsoluteFilename
+   fun:FcStrCopyFilename
+   fun:FcStrSetAddFilename
+   fun:FcEndElement
+   obj:/home/joacko/anaconda3/lib/libxml2.so.2.9.9
+   obj:*
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   obj:/usr/lib/x86_64-linux-gnu/libX11.so.6.3.0
+   fun:_XmbTextListToTextProperty
+   fun:_ZN10QXcbWindow14setWindowTitleERK7QString
+   fun:_ZN7QWindow8setTitleERK7QString
+   fun:_ZN14QWidgetPrivate21setWindowTitle_helperERK7QString
+   fun:_ZN7QWidget6createEybb
+   fun:_ZN7QWidget10setVisibleEb
+   fun:main
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   obj:/home/joacko/anaconda3/lib/libdbus-1.so.3.24.0
+   obj:*
+   obj:*
+   obj:*
+   obj:/home/joacko/anaconda3/lib/libdbus-1.so.3.24.0
+   obj:*
+   obj:*
+   obj:*
+   obj:*
+   obj:*
+   obj:/home/joacko/anaconda3/lib/libdbus-1.so.3.24.0
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:calloc
+   obj:/home/joacko/anaconda3/lib/libdbus-1.so.3.24.0
+   obj:*
+   obj:*
+   obj:*
+   obj:/home/joacko/anaconda3/lib/libdbus-1.so.3.24.0
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:calloc
+   obj:/home/joacko/anaconda3/lib/libdbus-1.so.3.24.0
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   obj:/home/joacko/anaconda3/lib/libdbus-1.so.3.24.0
+   obj:*
+   obj:*
+   obj:*
+   obj:*
+   obj:*
+   obj:/home/joacko/anaconda3/lib/libdbus-1.so.3.24.0
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   obj:/home/joacko/anaconda3/lib/libdbus-1.so.3.24.0
+   obj:*
+   obj:*
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:calloc
+   obj:/usr/lib/x86_64-linux-gnu/libX11.so.6.3.0
+   fun:_XlcCreateLC
+   fun:_XlcUtf8Loader
+   fun:_XOpenLC
+   fun:_XlcCurrentLC
+   fun:XmbTextListToTextProperty
+   fun:_ZN10QXcbWindow14setWindowTitleERK7QString
+   fun:_ZN10QXcbWindow6createEv
+   fun:_ZNK15QXcbIntegration20createPlatformWindowEP7QWindow
+   fun:_ZN14QWindowPrivate6createEby
+   fun:_ZN14QWidgetPrivate10create_sysEybb
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:realloc
+   fun:_XlcResolveLocaleName
+   obj:/usr/lib/x86_64-linux-gnu/libX11.so.6.3.0
+   obj:/usr/lib/x86_64-linux-gnu/libX11.so.6.3.0
+   fun:_XlcCreateLC
+   fun:_XlcUtf8Loader
+   fun:_XOpenLC
+   fun:_XlcCurrentLC
+   fun:XmbTextListToTextProperty
+   fun:_ZN10QXcbWindow14setWindowTitleERK7QString
+   fun:_ZN10QXcbWindow6createEv
+   fun:_ZNK15QXcbIntegration20createPlatformWindowEP7QWindow
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   fun:_XOpenLC
+   fun:_XlcCurrentLC
+   fun:XmbTextListToTextProperty
+   fun:_ZN10QXcbWindow14setWindowTitleERK7QString
+   fun:_ZN10QXcbWindow6createEv
+   fun:_ZNK15QXcbIntegration20createPlatformWindowEP7QWindow
+   fun:_ZN14QWindowPrivate6createEby
+   fun:_ZN14QWidgetPrivate10create_sysEybb
+   fun:_ZN7QWidget6createEybb
+   fun:_ZN7QWidget10setVisibleEb
+   fun:main
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: indirect
+   fun:calloc
+   obj:/home/joacko/anaconda3/lib/libdbus-1.so.3.24.0
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: indirect
+   fun:calloc
+   obj:/home/joacko/anaconda3/lib/libdbus-1.so.3.24.0
+   obj:*
+   obj:*
+   obj:*
+   obj:/home/joacko/anaconda3/lib/libdbus-1.so.3.24.0
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:realloc
+   obj:/home/joacko/anaconda3/lib/libdbus-1.so.3.24.0
+   obj:*
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: indirect
+   fun:realloc
+   obj:/home/joacko/anaconda3/lib/libdbus-1.so.3.24.0
+   obj:*
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:calloc
+   fun:_dlerror_run
+   fun:dlsym
+   obj:/usr/lib/x86_64-linux-gnu/libGLdispatch.so.0.0.0
+   obj:/usr/lib/x86_64-linux-gnu/libGLdispatch.so.0.0.0
+   fun:call_init
+   fun:_dl_init
+   obj:/lib/x86_64-linux-gnu/ld-2.27.so
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:calloc
+   obj:/home/joacko/anaconda3/lib/libglib-2.0.so.0.5600.2
+   obj:*
+   obj:/home/joacko/anaconda3/lib/libglib-2.0.so.0.5600.2
+   obj:*
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:calloc
+   obj:/home/joacko/anaconda3/lib/libglib-2.0.so.0.5600.2
+   obj:*
+   obj:/home/joacko/anaconda3/lib/libglib-2.0.so.0.5600.2
+   obj:*
+   obj:*
+   obj:/home/joacko/anaconda3/lib/libQt5Core.so.5.9.7
+   obj:*
+   obj:*
+   obj:/home/joacko/anaconda3/lib/libglib-2.0.so.0.5600.2
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   fun:FcStrSetCreate
+   fun:FcConfigCreate
+   fun:FcInitLoadOwnConfig
+   fun:FcInitLoadOwnConfigAndFonts
+   fun:FcConfigEnsure
+   fun:FcConfigInit
+   obj:/home/joacko/anaconda3/lib/libQt5XcbQpa.so.5.9.7
+   obj:/home/joacko/anaconda3/lib/libQt5Gui.so.5.9.7
+   fun:_ZN13QFontDatabase8findFontERK8QFontDefi
+   fun:_ZN13QFontDatabase4loadEPK12QFontPrivatei
+   fun:_ZNK12QFontPrivate15engineForScriptEi
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   fun:_FcStrSetAppend
+   fun:FcStrSetAddFilename
+   fun:FcEndElement
+   obj:/home/joacko/anaconda3/lib/libxml2.so.2.9.9
+   obj:*
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   fun:FcStrSetCreate
+   fun:FcGetDefaultLangs
+   fun:FcGetDefaultLang
+   fun:FcFontSetList
+   fun:FcFontList
+   obj:/home/joacko/anaconda3/lib/libQt5XcbQpa.so.5.9.7
+   obj:/home/joacko/anaconda3/lib/libQt5Gui.so.5.9.7
+   fun:_ZN13QFontDatabase8findFontERK8QFontDefi
+   fun:_ZN13QFontDatabase4loadEPK12QFontPrivatei
+   fun:_ZNK12QFontPrivate15engineForScriptEi
+   obj:/home/joacko/anaconda3/lib/libQt5Gui.so.5.9.7
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   obj:/home/joacko/anaconda3/lib/libdbus-1.so.3.24.0
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: indirect
+   fun:malloc
+   obj:/home/joacko/anaconda3/lib/libdbus-1.so.3.24.0
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   obj:/home/joacko/anaconda3/lib/libdbus-1.so.3.24.0
+   obj:*
+   obj:*
+   obj:*
+   obj:/home/joacko/anaconda3/lib/libdbus-1.so.3.24.0
+   obj:*
+   obj:*
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: indirect
+   fun:malloc
+   obj:/home/joacko/anaconda3/lib/libdbus-1.so.3.24.0
+   obj:*
+   obj:*
+   obj:*
+   obj:/home/joacko/anaconda3/lib/libdbus-1.so.3.24.0
+   obj:*
+   obj:*
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   fun:strdup
+   fun:_FcObjectLookupOtherTypeByName
+   fun:FcObjectLookupIdByName
+   fun:FcEndElement
+   obj:/home/joacko/anaconda3/lib/libxml2.so.2.9.9
+   obj:*
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   fun:strdup
+   fun:FcEndElement
+   obj:/home/joacko/anaconda3/lib/libxml2.so.2.9.9
+   obj:*
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   fun:XInitThreads
+   fun:_ZN15QXcbIntegrationC1ERK11QStringListRiPPc
+   obj:/home/joacko/anaconda3/plugins/platforms/libqxcb.so
+   fun:_ZN27QPlatformIntegrationFactory6createERK7QStringRK11QStringListRiPPcS2_
+   fun:_ZN22QGuiApplicationPrivate25createPlatformIntegrationEv
+   fun:_ZN22QGuiApplicationPrivate21createEventDispatcherEv
+   fun:_ZN23QCoreApplicationPrivate4initEv
+   fun:_ZN22QGuiApplicationPrivate4initEv
+   fun:_ZN19QApplicationPrivate4initEv
+   fun:main
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   obj:/home/joacko/anaconda3/lib/libdbus-1.so.3.24.0
+   obj:*
+   obj:*
+   obj:*
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   obj:/home/joacko/anaconda3/lib/libdbus-1.so.3.24.0
+   obj:*
+   obj:*
+   obj:*
+   obj:*
+   obj:/home/joacko/anaconda3/lib/libdbus-1.so.3.24.0
+   obj:/home/joacko/anaconda3/lib/libdbus-1.so.3.24.0
+   obj:*
+   obj:*
+   obj:*
+   obj:*
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   obj:/home/joacko/anaconda3/lib/libdbus-1.so.3.24.0
+   obj:*
+   obj:*
+   obj:*
+   obj:*
+   obj:*
+   obj:/home/joacko/anaconda3/lib/libdbus-1.so.3.24.0
+   obj:*
+   obj:/home/joacko/anaconda3/lib/libdbus-1.so.3.24.0
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   obj:/home/joacko/anaconda3/lib/libdbus-1.so.3.24.0
+   obj:*
+   obj:/home/joacko/anaconda3/lib/libdbus-1.so.3.24.0
+   obj:*
+   obj:/home/joacko/anaconda3/lib/libdbus-1.so.3.24.0
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   obj:/home/joacko/anaconda3/lib/libdbus-1.so.3.24.0
+   obj:*
+   obj:*
+   obj:*
+   obj:*
+   obj:*
+   obj:/home/joacko/anaconda3/lib/libdbus-1.so.3.24.0
+   obj:*
+   obj:/home/joacko/anaconda3/lib/libdbus-1.so.3.24.0
+   obj:*
+   obj:/home/joacko/anaconda3/lib/libdbus-1.so.3.24.0
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   fun:strdup
+   fun:FcStrSetAdd
+   fun:_FcConfigParse
+   fun:FcEndElement
+   obj:/home/joacko/anaconda3/lib/libxml2.so.2.9.9
+   obj:*
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   fun:FcStrCanonAbsoluteFilename
+   fun:FcStrSetAddFilename
+   fun:_FcConfigParse
+   fun:FcEndElement
+   obj:/home/joacko/anaconda3/lib/libxml2.so.2.9.9
+   obj:*
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   fun:lock_cache
+   fun:FcDirCacheMapFd
+   fun:FcDirCacheMapHelper
+   fun:FcDirCacheProcess
+   fun:FcDirCacheLoad
+   fun:FcDirCacheRead
+   fun:FcConfigAddDirList
+   fun:FcConfigBuildFonts
+   fun:FcInitLoadOwnConfigAndFonts
+   fun:FcConfigEnsure
+   fun:FcConfigInit
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   fun:_XlcCreateLocaleDataBase
+   obj:/usr/lib/x86_64-linux-gnu/libX11.so.6.3.0
+   obj:/usr/lib/x86_64-linux-gnu/libX11.so.6.3.0
+   fun:_XlcCreateLC
+   fun:_XlcUtf8Loader
+   fun:_XOpenLC
+   fun:_XlcCurrentLC
+   fun:XmbTextListToTextProperty
+   fun:_ZN10QXcbWindow14setWindowTitleERK7QString
+   fun:_ZN10QXcbWindow6createEv
+   fun:_ZNK15QXcbIntegration20createPlatformWindowEP7QWindow
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: indirect
+   fun:malloc
+   obj:/home/joacko/anaconda3/lib/libdbus-1.so.3.24.0
+   obj:*
+   obj:*
+   obj:*
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: indirect
+   fun:malloc
+   obj:/home/joacko/anaconda3/lib/libdbus-1.so.3.24.0
+   obj:*
+   obj:*
+   obj:*
+   obj:*
+   obj:*
+   obj:/home/joacko/anaconda3/lib/libdbus-1.so.3.24.0
+   obj:*
+   obj:/home/joacko/anaconda3/lib/libdbus-1.so.3.24.0
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: indirect
+   fun:malloc
+   obj:/home/joacko/anaconda3/lib/libdbus-1.so.3.24.0
+   obj:*
+   obj:/home/joacko/anaconda3/lib/libdbus-1.so.3.24.0
+   obj:*
+   obj:/home/joacko/anaconda3/lib/libdbus-1.so.3.24.0
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: indirect
+   fun:malloc
+   obj:/home/joacko/anaconda3/lib/libdbus-1.so.3.24.0
+   obj:*
+   obj:*
+   obj:*
+   obj:*
+   obj:*
+   obj:/home/joacko/anaconda3/lib/libdbus-1.so.3.24.0
+   obj:*
+   obj:/home/joacko/anaconda3/lib/libdbus-1.so.3.24.0
+   obj:*
+   obj:/home/joacko/anaconda3/lib/libdbus-1.so.3.24.0
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   fun:strdup
+   fun:_dl_load_cache_lookup
+   fun:_dl_map_object
+   fun:dl_open_worker
+   fun:_dl_catch_exception
+   fun:_dl_open
+   fun:dlopen_doit
+   fun:_dl_catch_exception
+   fun:_dl_catch_error
+   fun:_dlerror_run
+   fun:dlopen@@GLIBC_2.2.5
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   fun:strdup
+   fun:_dl_map_object
+   fun:dl_open_worker
+   fun:_dl_catch_exception
+   fun:_dl_open
+   fun:dlopen_doit
+   fun:_dl_catch_exception
+   fun:_dl_catch_error
+   fun:_dlerror_run
+   fun:dlopen@@GLIBC_2.2.5
+   obj:*
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   fun:strdup
+   fun:FcStrSetAdd
+   fun:_FcConfigParse
+   fun:FcInitLoadOwnConfig
+   fun:FcInitLoadOwnConfigAndFonts
+   fun:FcConfigEnsure
+   fun:FcConfigInit
+   obj:/home/joacko/anaconda3/lib/libQt5XcbQpa.so.5.9.7
+   obj:/home/joacko/anaconda3/lib/libQt5Gui.so.5.9.7
+   fun:_ZN13QFontDatabase8findFontERK8QFontDefi
+   fun:_ZN13QFontDatabase4loadEPK12QFontPrivatei
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   fun:strdup
+   fun:FcRuleSetCreate
+   fun:FcConfigParseAndLoadFromMemoryInternal
+   fun:_FcConfigParse
+   fun:FcInitLoadOwnConfig
+   fun:FcInitLoadOwnConfigAndFonts
+   fun:FcConfigEnsure
+   fun:FcConfigInit
+   obj:/home/joacko/anaconda3/lib/libQt5XcbQpa.so.5.9.7
+   obj:/home/joacko/anaconda3/lib/libQt5Gui.so.5.9.7
+   fun:_ZN13QFontDatabase8findFontERK8QFontDefi
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   fun:_XlcAddCT
+   fun:_XlcInitCTInfo
+   obj:/usr/lib/x86_64-linux-gnu/libX11.so.6.3.0
+   obj:/usr/lib/x86_64-linux-gnu/libX11.so.6.3.0
+   fun:_XlcCreateLC
+   fun:_XlcUtf8Loader
+   fun:_XOpenLC
+   fun:_XlcCurrentLC
+   fun:XmbTextListToTextProperty
+   fun:_ZN10QXcbWindow14setWindowTitleERK7QString
+   fun:_ZN10QXcbWindow6createEv
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   obj:/usr/lib/x86_64-linux-gnu/libX11.so.6.3.0
+   obj:/usr/lib/x86_64-linux-gnu/libX11.so.6.3.0
+   fun:XrmGetStringDatabase
+   obj:/usr/lib/x86_64-linux-gnu/libX11.so.6.3.0
+   fun:XGetDefault
+   fun:_XcursorGetDisplayInfo
+   fun:XcursorGetDefaultSize
+   fun:XcursorLibraryLoadCursor
+   obj:/home/joacko/anaconda3/lib/libQt5XcbQpa.so.5.9.7
+   obj:/home/joacko/anaconda3/lib/libQt5XcbQpa.so.5.9.7
+   fun:_ZN14QWindowPrivate11applyCursorEv
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: definite
+   fun:malloc
+   fun:FcPatternCreate
+   fun:FcEndElement
+   obj:/home/joacko/anaconda3/lib/libxml2.so.2.9.9
+   obj:*
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   fun:UDataMemory_createNewInstance_58
+   fun:_ZL16setCommonICUDataP11UDataMemoryaP10UErrorCode
+   fun:_ZL14openCommonDataPKciP10UErrorCode
+   fun:_ZL20doLoadFromCommonDataaPKcS0_S0_S0_S0_S0_S0_PFaPvS0_S0_PK9UDataInfoES1_P10UErrorCodeS8_.constprop.8
+   fun:_ZL12doOpenChoicePKcS0_S0_PFaPvS0_S0_PK9UDataInfoES1_P10UErrorCode
+   fun:_ZL13initAliasDataR10UErrorCode
+   fun:ucnv_getStandardName_58
+   obj:/home/joacko/anaconda3/lib/libQt5Core.so.5.9.7
+   obj:/home/joacko/anaconda3/lib/libQt5Core.so.5.9.7
+   fun:_ZN10QTextCodec14codecForLocaleEv
+   fun:_ZN7QString20fromLocal8Bit_helperEPKci
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   fun:UDataMemory_createNewInstance_58
+   fun:_ZL13checkDataItemPK10DataHeaderPFaPvPKcS4_PK9UDataInfoES2_S4_S4_P10UErrorCodeSB_
+   fun:_ZL20doLoadFromCommonDataaPKcS0_S0_S0_S0_S0_S0_PFaPvS0_S0_PK9UDataInfoES1_P10UErrorCodeS8_.constprop.8
+   fun:_ZL12doOpenChoicePKcS0_S0_PFaPvS0_S0_PK9UDataInfoES1_P10UErrorCode
+   fun:_ZL13initAliasDataR10UErrorCode
+   fun:ucnv_getStandardName_58
+   obj:/home/joacko/anaconda3/lib/libQt5Core.so.5.9.7
+   obj:/home/joacko/anaconda3/lib/libQt5Core.so.5.9.7
+   fun:_ZN10QTextCodec14codecForLocaleEv
+   fun:_ZN7QString20fromLocal8Bit_helperEPKci
+   obj:/home/joacko/anaconda3/lib/libQt5Core.so.5.9.7
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   obj:/home/joacko/anaconda3/lib/libxml2.so.2.9.9
+   obj:*
+   obj:*
+   obj:*
+   obj:*
+   obj:*
+   obj:*
+   obj:*
+   obj:*
+   obj:*
+   obj:*
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   obj:/home/joacko/anaconda3/lib/libglib-2.0.so.0.5600.2
+   obj:*
+   obj:/home/joacko/anaconda3/lib/libglib-2.0.so.0.5600.2
+   obj:*
+   obj:*
+   obj:*
+   obj:/home/joacko/anaconda3/lib/libglib-2.0.so.0.5600.2
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:calloc
+   obj:/home/joacko/anaconda3/lib/libdbus-1.so.3.24.0
+   obj:*
+   obj:*
+   obj:*
+   obj:/home/joacko/anaconda3/lib/libdbus-1.so.3.24.0
+   obj:*
+   obj:*
+   obj:*
+   obj:/home/joacko/anaconda3/lib/libdbus-1.so.3.24.0
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   fun:realloc
+   obj:/home/joacko/anaconda3/lib/libdbus-1.so.3.24.0
+   obj:*
+   obj:*
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   fun:FcRuleSetCreate
+   fun:FcConfigParseAndLoadFromMemoryInternal
+   fun:_FcConfigParse
+   fun:FcInitLoadOwnConfig
+   fun:FcInitLoadOwnConfigAndFonts
+   fun:FcConfigEnsure
+   fun:FcConfigInit
+   obj:/home/joacko/anaconda3/lib/libQt5XcbQpa.so.5.9.7
+   obj:/home/joacko/anaconda3/lib/libQt5Gui.so.5.9.7
+   fun:_ZN13QFontDatabase8findFontERK8QFontDefi
+   fun:_ZN13QFontDatabase4loadEPK12QFontPrivatei
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   fun:_XrmInternalStringToQuark
+   fun:_XlcGetCharSet
+   fun:_XlcAddCT
+   fun:_XlcInitCTInfo
+   obj:/usr/lib/x86_64-linux-gnu/libX11.so.6.3.0
+   obj:/usr/lib/x86_64-linux-gnu/libX11.so.6.3.0
+   fun:_XlcCreateLC
+   fun:_XlcUtf8Loader
+   fun:_XOpenLC
+   fun:_XlcCurrentLC
+   fun:XmbTextListToTextProperty
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   fun:_XlcSetConverter
+   fun:_XlcInitCTInfo
+   obj:/usr/lib/x86_64-linux-gnu/libX11.so.6.3.0
+   obj:/usr/lib/x86_64-linux-gnu/libX11.so.6.3.0
+   fun:_XlcCreateLC
+   fun:_XlcUtf8Loader
+   fun:_XOpenLC
+   fun:_XlcCurrentLC
+   fun:XmbTextListToTextProperty
+   fun:_ZN10QXcbWindow14setWindowTitleERK7QString
+   fun:_ZN10QXcbWindow6createEv
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   fun:_XlcSetConverter
+   fun:_XlcAddUtf8LocaleConverters
+   fun:_XlcUtf8Loader
+   fun:_XOpenLC
+   fun:_XlcCurrentLC
+   fun:XmbTextListToTextProperty
+   fun:_ZN10QXcbWindow14setWindowTitleERK7QString
+   fun:_ZN10QXcbWindow6createEv
+   fun:_ZNK15QXcbIntegration20createPlatformWindowEP7QWindow
+   fun:_ZN14QWindowPrivate6createEby
+   fun:_ZN14QWidgetPrivate10create_sysEybb
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   fun:_XlcSetConverter
+   fun:_XlcUtf8Loader
+   fun:_XOpenLC
+   fun:_XlcCurrentLC
+   fun:XmbTextListToTextProperty
+   fun:_ZN10QXcbWindow14setWindowTitleERK7QString
+   fun:_ZN10QXcbWindow6createEv
+   fun:_ZNK15QXcbIntegration20createPlatformWindowEP7QWindow
+   fun:_ZN14QWindowPrivate6createEby
+   fun:_ZN14QWidgetPrivate10create_sysEybb
+   fun:_ZN7QWidget6createEybb
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   fun:_XlcSetConverter
+   fun:_XlcAddUtf8Converters
+   fun:_XlcUtf8Loader
+   fun:_XOpenLC
+   fun:_XlcCurrentLC
+   fun:XmbTextListToTextProperty
+   fun:_ZN10QXcbWindow14setWindowTitleERK7QString
+   fun:_ZN10QXcbWindow6createEv
+   fun:_ZNK15QXcbIntegration20createPlatformWindowEP7QWindow
+   fun:_ZN14QWindowPrivate6createEby
+   fun:_ZN14QWidgetPrivate10create_sysEybb
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:calloc
+   obj:/home/joacko/anaconda3/lib/libdbus-1.so.3.24.0
+   obj:*
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   fun:_FcObjectLookupOtherTypeByName
+   fun:FcObjectLookupIdByName
+   fun:FcEndElement
+   obj:/home/joacko/anaconda3/lib/libxml2.so.2.9.9
+   obj:*
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: indirect
+   fun:calloc
+   obj:/home/joacko/anaconda3/lib/libdbus-1.so.3.24.0
+   obj:*
+   obj:*
+   obj:*
+   obj:/home/joacko/anaconda3/lib/libdbus-1.so.3.24.0
+   obj:*
+   obj:*
+   obj:*
+   obj:/home/joacko/anaconda3/lib/libdbus-1.so.3.24.0
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: indirect
+   fun:malloc
+   fun:realloc
+   obj:/home/joacko/anaconda3/lib/libdbus-1.so.3.24.0
+   obj:*
+   obj:*
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: indirect
+   fun:calloc
+   fun:FcPatternObjectAddWithBinding
+   fun:FcPatternAppend
+   fun:FcEndElement
+   obj:/home/joacko/anaconda3/lib/libxml2.so.2.9.9
+   obj:*
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   fun:_XlcCreateDefaultCharSet
+   obj:/usr/lib/x86_64-linux-gnu/libX11.so.6.3.0
+   obj:/usr/lib/x86_64-linux-gnu/libX11.so.6.3.0
+   fun:_XlcCreateLC
+   fun:_XlcUtf8Loader
+   fun:_XOpenLC
+   fun:_XlcCurrentLC
+   fun:XmbTextListToTextProperty
+   fun:_ZN10QXcbWindow14setWindowTitleERK7QString
+   fun:_ZN10QXcbWindow6createEv
+   fun:_ZNK15QXcbIntegration20createPlatformWindowEP7QWindow
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   obj:/home/joacko/anaconda3/lib/libdbus-1.so.3.24.0
+   obj:*
+   obj:/home/joacko/anaconda3/lib/libdbus-1.so.3.24.0
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   obj:/home/joacko/anaconda3/lib/libdbus-1.so.3.24.0
+   obj:*
+   obj:/home/joacko/anaconda3/lib/libdbus-1.so.3.24.0
+   obj:*
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   obj:/home/joacko/anaconda3/lib/libglib-2.0.so.0.5600.2
+   obj:*
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: indirect
+   fun:malloc
+   obj:/home/joacko/anaconda3/lib/libdbus-1.so.3.24.0
+   obj:*
+   obj:/home/joacko/anaconda3/lib/libdbus-1.so.3.24.0
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: indirect
+   fun:malloc
+   obj:/home/joacko/anaconda3/lib/libdbus-1.so.3.24.0
+   obj:*
+   obj:/home/joacko/anaconda3/lib/libdbus-1.so.3.24.0
+   obj:*
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   fun:FcStrCanonAbsoluteFilename
+   fun:FcStrSetAddFilename
+   fun:FcEndElement
+   obj:/home/joacko/anaconda3/lib/libxml2.so.2.9.9
+   obj:*
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:realloc
+   obj:/usr/lib/x86_64-linux-gnu/libX11.so.6.3.0
+   obj:/usr/lib/x86_64-linux-gnu/libX11.so.6.3.0
+   fun:_XlcCreateLC
+   fun:_XlcUtf8Loader
+   fun:_XOpenLC
+   fun:_XlcCurrentLC
+   fun:XmbTextListToTextProperty
+   fun:_ZN10QXcbWindow14setWindowTitleERK7QString
+   fun:_ZN10QXcbWindow6createEv
+   fun:_ZNK15QXcbIntegration20createPlatformWindowEP7QWindow
+   fun:_ZN14QWindowPrivate6createEby
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   fun:FcPtrListCreate
+   fun:FcRuleSetCreate
+   fun:FcEndElement
+   obj:/home/joacko/anaconda3/lib/libxml2.so.2.9.9
+   obj:*
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   fun:_XlcAddCharSet
+   obj:/usr/lib/x86_64-linux-gnu/libX11.so.6.3.0
+   obj:/usr/lib/x86_64-linux-gnu/libX11.so.6.3.0
+   fun:_XlcCreateLC
+   fun:_XlcUtf8Loader
+   fun:_XOpenLC
+   fun:_XlcCurrentLC
+   fun:XmbTextListToTextProperty
+   fun:_ZN10QXcbWindow14setWindowTitleERK7QString
+   fun:_ZN10QXcbWindow6createEv
+   fun:_ZNK15QXcbIntegration20createPlatformWindowEP7QWindow
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: definite
+   fun:malloc
+   obj:/home/joacko/anaconda3/lib/libdbus-1.so.3.24.0
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   obj:/home/joacko/anaconda3/lib/libglib-2.0.so.0.5600.2
+   obj:*
+   obj:/home/joacko/anaconda3/lib/libglib-2.0.so.0.5600.2
+   obj:*
+   obj:/home/joacko/anaconda3/lib/libglib-2.0.so.0.5600.2
+   obj:*
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:calloc
+   obj:/home/joacko/anaconda3/lib/libdbus-1.so.3.24.0
+   obj:*
+   obj:/home/joacko/anaconda3/lib/libdbus-1.so.3.24.0
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: indirect
+   fun:calloc
+   obj:/home/joacko/anaconda3/lib/libdbus-1.so.3.24.0
+   obj:*
+   obj:/home/joacko/anaconda3/lib/libdbus-1.so.3.24.0
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:calloc
+   obj:/home/joacko/anaconda3/lib/libdbus-1.so.3.24.0
+   obj:*
+   obj:*
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: indirect
+   fun:calloc
+   obj:/home/joacko/anaconda3/lib/libdbus-1.so.3.24.0
+   obj:*
+   obj:*
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:realloc
+   obj:/usr/lib/x86_64-linux-gnu/libX11.so.6.3.0
+   obj:/usr/lib/x86_64-linux-gnu/libX11.so.6.3.0
+   obj:/usr/lib/x86_64-linux-gnu/libX11.so.6.3.0
+   fun:_XlcCreateLocaleDataBase
+   obj:/usr/lib/x86_64-linux-gnu/libX11.so.6.3.0
+   obj:/usr/lib/x86_64-linux-gnu/libX11.so.6.3.0
+   fun:_XlcCreateLC
+   fun:_XlcUtf8Loader
+   fun:_XOpenLC
+   fun:_XlcCurrentLC
+   fun:XmbTextListToTextProperty
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: definite
+   fun:realloc
+   obj:/home/joacko/anaconda3/lib/libdbus-1.so.3.24.0
+   obj:*
+   obj:*
+   obj:*
+   obj:*
+   obj:/home/joacko/anaconda3/lib/libdbus-1.so.3.24.0
+   obj:/home/joacko/anaconda3/lib/libdbus-1.so.3.24.0
+   obj:*
+   obj:*
+   obj:/home/joacko/anaconda3/lib/libdbus-1.so.3.24.0
+   obj:*
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:calloc
+   obj:/home/joacko/anaconda3/lib/libdbus-1.so.3.24.0
+   obj:*
+   obj:*
+   obj:*
+   obj:*
+   obj:*
+   obj:/home/joacko/anaconda3/lib/libdbus-1.so.3.24.0
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   obj:/usr/lib/x86_64-linux-gnu/libX11.so.6.3.0
+   obj:/usr/lib/x86_64-linux-gnu/libX11.so.6.3.0
+   fun:_XlcCreateLC
+   fun:_XlcUtf8Loader
+   fun:_XOpenLC
+   fun:_XlcCurrentLC
+   fun:XmbTextListToTextProperty
+   fun:_ZN10QXcbWindow14setWindowTitleERK7QString
+   fun:_ZN10QXcbWindow6createEv
+   fun:_ZNK15QXcbIntegration20createPlatformWindowEP7QWindow
+   fun:_ZN14QWindowPrivate6createEby
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: indirect
+   fun:calloc
+   obj:/home/joacko/anaconda3/lib/libdbus-1.so.3.24.0
+   obj:*
+   obj:*
+   obj:*
+   obj:*
+   obj:*
+   obj:/home/joacko/anaconda3/lib/libdbus-1.so.3.24.0
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   fun:realloc
+   obj:/home/joacko/anaconda3/lib/libglib-2.0.so.0.5600.2
+   obj:*
+   obj:/home/joacko/anaconda3/lib/libglib-2.0.so.0.5600.2
+   obj:*
+   obj:*
+   obj:*
+   obj:/home/joacko/anaconda3/lib/libglib-2.0.so.0.5600.2
+   obj:*
+   obj:*
+   obj:*
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   fun:dl_open_worker
+   fun:_dl_catch_exception
+   fun:_dl_open
+   fun:dlopen_doit
+   fun:_dl_catch_exception
+   fun:_dl_catch_error
+   fun:_dlerror_run
+   fun:dlopen@@GLIBC_2.2.5
+   obj:/home/joacko/anaconda3/lib/libQt5Core.so.5.9.7
+   obj:/home/joacko/anaconda3/lib/libQt5Core.so.5.9.7
+   obj:/home/joacko/anaconda3/lib/libQt5Core.so.5.9.7
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:realloc
+   obj:/usr/lib/x86_64-linux-gnu/libX11.so.6.3.0
+   obj:/usr/lib/x86_64-linux-gnu/libX11.so.6.3.0
+   obj:/usr/lib/x86_64-linux-gnu/libX11.so.6.3.0
+   fun:_XlcCreateLC
+   fun:_XlcUtf8Loader
+   fun:_XOpenLC
+   fun:_XlcCurrentLC
+   fun:XmbTextListToTextProperty
+   fun:_ZN10QXcbWindow14setWindowTitleERK7QString
+   fun:_ZN10QXcbWindow6createEv
+   fun:_ZNK15QXcbIntegration20createPlatformWindowEP7QWindow
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   fun:decompose_rpath
+   fun:cache_rpath
+   fun:_dl_map_object
+   fun:openaux
+   fun:_dl_catch_exception
+   fun:_dl_map_object_deps
+   fun:dl_open_worker
+   fun:_dl_catch_exception
+   fun:_dl_open
+   fun:dlopen_doit
+   fun:_dl_catch_exception
+   fun:_dl_catch_error
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   fun:strdup
+   fun:FcRuleSetAddDescription
+   fun:FcEndElement
+   obj:/home/joacko/anaconda3/lib/libxml2.so.2.9.9
+   obj:*
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   fun:_FcStrSetAppend
+   fun:FcStrSetAdd
+   fun:_FcConfigParse
+   fun:_FcConfigParse
+   fun:FcEndElement
+   obj:/home/joacko/anaconda3/lib/libxml2.so.2.9.9
+   obj:*
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   obj:/usr/lib/x86_64-linux-gnu/libX11.so.6.3.0
+   fun:_XlcCreateLC
+   fun:_XlcUtf8Loader
+   fun:_XOpenLC
+   fun:_XlcCurrentLC
+   fun:XmbTextListToTextProperty
+   fun:_ZN10QXcbWindow14setWindowTitleERK7QString
+   fun:_ZN10QXcbWindow6createEv
+   fun:_ZNK15QXcbIntegration20createPlatformWindowEP7QWindow
+   fun:_ZN14QWindowPrivate6createEby
+   fun:_ZN14QWidgetPrivate10create_sysEybb
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:calloc
+   obj:/home/joacko/anaconda3/lib/libglib-2.0.so.0.5600.2
+   obj:*
+   obj:/home/joacko/anaconda3/lib/libglib-2.0.so.0.5600.2
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   fun:FcConfigCreate
+   fun:FcInitLoadOwnConfig
+   fun:FcInitLoadOwnConfigAndFonts
+   fun:FcConfigEnsure
+   fun:FcConfigInit
+   obj:/home/joacko/anaconda3/lib/libQt5XcbQpa.so.5.9.7
+   obj:/home/joacko/anaconda3/lib/libQt5Gui.so.5.9.7
+   fun:_ZN13QFontDatabase8findFontERK8QFontDefi
+   fun:_ZN13QFontDatabase4loadEPK12QFontPrivatei
+   fun:_ZNK12QFontPrivate15engineForScriptEi
+   obj:/home/joacko/anaconda3/lib/libQt5Gui.so.5.9.7
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:realloc
+   obj:/home/joacko/anaconda3/lib/libdbus-1.so.3.24.0
+   obj:*
+   obj:*
+   obj:*
+   obj:/home/joacko/anaconda3/lib/libdbus-1.so.3.24.0
+   obj:*
+   obj:*
+   obj:*
+   obj:/home/joacko/anaconda3/lib/libdbus-1.so.3.24.0
+   obj:*
+   obj:/home/joacko/anaconda3/lib/libdbus-1.so.3.24.0
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:calloc
+   obj:/home/joacko/anaconda3/lib/libdbus-1.so.3.24.0
+   obj:*
+   obj:*
+   obj:*
+   obj:/home/joacko/anaconda3/lib/libdbus-1.so.3.24.0
+   obj:*
+   obj:/home/joacko/anaconda3/lib/libdbus-1.so.3.24.0
+   obj:*
+   obj:*
+   obj:*
+   obj:*
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:calloc
+   obj:/home/joacko/anaconda3/lib/libdbus-1.so.3.24.0
+   obj:*
+   obj:*
+   obj:*
+   obj:/home/joacko/anaconda3/lib/libdbus-1.so.3.24.0
+   obj:*
+   obj:*
+   obj:*
+   obj:*
+   obj:*
+   obj:*
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:calloc
+   obj:/home/joacko/anaconda3/lib/libdbus-1.so.3.24.0
+   obj:*
+   obj:*
+   obj:*
+   obj:/home/joacko/anaconda3/lib/libdbus-1.so.3.24.0
+   obj:*
+   obj:*
+   obj:*
+   obj:*
+   obj:*
+   obj:/home/joacko/anaconda3/lib/libQt5DBus.so.5.9.7
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   fun:FcPopExpr
+   fun:FcPopBinary
+   fun:FcParseBinary
+   fun:FcEndElement
+   obj:/home/joacko/anaconda3/lib/libxml2.so.2.9.9
+   obj:*
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:calloc
+   obj:/home/joacko/anaconda3/lib/libdbus-1.so.3.24.0
+   obj:*
+   obj:*
+   obj:*
+   obj:*
+   obj:*
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   fun:FcPtrListCreate
+   fun:FcRuleSetCreate
+   fun:FcConfigParseAndLoadFromMemoryInternal
+   fun:_FcConfigParse
+   fun:_FcConfigParse
+   fun:FcEndElement
+   obj:/home/joacko/anaconda3/lib/libxml2.so.2.9.9
+   obj:*
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: indirect
+   fun:calloc
+   obj:/home/joacko/anaconda3/lib/libdbus-1.so.3.24.0
+   obj:*
+   obj:*
+   obj:*
+   obj:*
+   obj:*
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   fun:FcPtrListIterAdd
+   fun:FcConfigParseAndLoadFromMemoryInternal
+   fun:_FcConfigParse
+   fun:_FcConfigParse
+   fun:FcEndElement
+   obj:/home/joacko/anaconda3/lib/libxml2.so.2.9.9
+   obj:*
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   fun:strdup
+   fun:FcRuleSetCreate
+   fun:FcEndElement
+   obj:/home/joacko/anaconda3/lib/libxml2.so.2.9.9
+   obj:*
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   fun:_dl_close_worker.part.0
+   fun:_dl_close_worker
+   fun:_dl_close
+   fun:_dl_catch_exception
+   fun:_dl_catch_error
+   fun:dlerror_run
+   fun:__libc_dlclose
+   fun:free_mem
+   fun:__libc_freeres
+   fun:_vgnU_freeres
+   fun:__run_exit_handlers
+   fun:exit
+   fun:(below main)
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:realloc
+   obj:/home/joacko/anaconda3/lib/libdbus-1.so.3.24.0
+   obj:*
+   obj:*
+   obj:*
+   obj:/home/joacko/anaconda3/lib/libdbus-1.so.3.24.0
+   obj:/home/joacko/anaconda3/lib/libQt5DBus.so.5.9.7
+   obj:*
+   obj:*
+   obj:/home/joacko/anaconda3/lib/libdbus-1.so.3.24.0
+   obj:*
+   obj:*
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:realloc
+   obj:/home/joacko/anaconda3/lib/libdbus-1.so.3.24.0
+   obj:*
+   obj:*
+   obj:*
+   obj:/home/joacko/anaconda3/lib/libdbus-1.so.3.24.0
+   obj:*
+   obj:*
+   obj:*
+   obj:/home/joacko/anaconda3/lib/libdbus-1.so.3.24.0
+   obj:*
+   obj:*
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   fun:FcRuleSetCreate
+   fun:FcEndElement
+   obj:/home/joacko/anaconda3/lib/libxml2.so.2.9.9
+   obj:*
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:allocate_dtv
+   fun:_dl_allocate_tls
+   fun:allocate_stack
+   fun:pthread_create@@GLIBC_2.2.5
+   fun:_ZN7QThread5startENS_8PriorityE
+   obj:/home/joacko/anaconda3/lib/libQt5DBus.so.5.9.7
+   obj:/home/joacko/anaconda3/lib/libQt5DBus.so.5.9.7
+   fun:_ZN15QDBusConnection12connectToBusERK7QStringS2_
+   obj:/home/joacko/anaconda3/plugins/platforminputcontexts/libibusplatforminputcontextplugin.so
+   obj:/home/joacko/anaconda3/plugins/platforminputcontexts/libibusplatforminputcontextplugin.so
+   obj:/home/joacko/anaconda3/plugins/platforminputcontexts/libibusplatforminputcontextplugin.so
+   obj:/home/joacko/anaconda3/plugins/platforminputcontexts/libibusplatforminputcontextplugin.so
+   obj:/home/joacko/anaconda3/plugins/platforminputcontexts/libibusplatforminputcontextplugin.so
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:calloc
+   fun:_XlcCreateDefaultCharSet
+   obj:/usr/lib/x86_64-linux-gnu/libX11.so.6.3.0
+   obj:/usr/lib/x86_64-linux-gnu/libX11.so.6.3.0
+   fun:_XlcCreateLC
+   fun:_XlcUtf8Loader
+   fun:_XOpenLC
+   fun:_XlcCurrentLC
+   fun:XmbTextListToTextProperty
+   fun:_ZN10QXcbWindow14setWindowTitleERK7QString
+   fun:_ZN10QXcbWindow6createEv
+   fun:_ZNK15QXcbIntegration20createPlatformWindowEP7QWindow
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   obj:/home/joacko/anaconda3/lib/libxml2.so.2.9.9
+   obj:*
+   obj:/home/joacko/anaconda3/lib/libxml2.so.2.9.9
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   fun:add_to_global
+   fun:dl_open_worker
+   fun:_dl_catch_exception
+   fun:_dl_open
+   fun:dlopen_doit
+   fun:_dl_catch_exception
+   fun:_dl_catch_error
+   fun:_dlerror_run
+   fun:dlopen@@GLIBC_2.2.5
+   obj:*
+   obj:*
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   fun:_FcStrSetAppend
+   fun:FcStrSetAdd
+   fun:_FcConfigParse
+   fun:_FcConfigParse
+   fun:FcInitLoadOwnConfig
+   fun:FcInitLoadOwnConfigAndFonts
+   fun:FcConfigEnsure
+   fun:FcConfigInit
+   obj:/home/joacko/anaconda3/lib/libQt5XcbQpa.so.5.9.7
+   obj:/home/joacko/anaconda3/lib/libQt5Gui.so.5.9.7
+   fun:_ZN13QFontDatabase8findFontERK8QFontDefi
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   fun:strdup
+   fun:_dl_load_cache_lookup
+   fun:_dl_map_object
+   fun:openaux
+   fun:_dl_catch_exception
+   fun:_dl_map_object_deps
+   fun:dl_open_worker
+   fun:_dl_catch_exception
+   fun:_dl_open
+   fun:dlopen_doit
+   fun:_dl_catch_exception
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   fun:FcPtrListCreate
+   fun:FcRuleSetCreate
+   fun:FcConfigParseAndLoadFromMemoryInternal
+   fun:_FcConfigParse
+   fun:_FcConfigParse
+   fun:FcInitLoadOwnConfig
+   fun:FcInitLoadOwnConfigAndFonts
+   fun:FcConfigEnsure
+   fun:FcConfigInit
+   obj:/home/joacko/anaconda3/lib/libQt5XcbQpa.so.5.9.7
+   obj:/home/joacko/anaconda3/lib/libQt5Gui.so.5.9.7
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   fun:FcPtrListIterAdd
+   fun:FcConfigParseAndLoadFromMemoryInternal
+   fun:_FcConfigParse
+   fun:_FcConfigParse
+   fun:FcInitLoadOwnConfig
+   fun:FcInitLoadOwnConfigAndFonts
+   fun:FcConfigEnsure
+   fun:FcConfigInit
+   obj:/home/joacko/anaconda3/lib/libQt5XcbQpa.so.5.9.7
+   obj:/home/joacko/anaconda3/lib/libQt5Gui.so.5.9.7
+   fun:_ZN13QFontDatabase8findFontERK8QFontDefi
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   fun:_FcStrSetAppend
+   fun:FcStrSetAddFilename
+   fun:FcConfigAddCache
+   fun:FcConfigAddDirList
+   fun:FcConfigBuildFonts
+   fun:FcInitLoadOwnConfigAndFonts
+   fun:FcConfigEnsure
+   fun:FcConfigInit
+   obj:/home/joacko/anaconda3/lib/libQt5XcbQpa.so.5.9.7
+   obj:/home/joacko/anaconda3/lib/libQt5Gui.so.5.9.7
+   fun:_ZN13QFontDatabase8findFontERK8QFontDefi
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:calloc
+   fun:_dl_check_map_versions
+   fun:dl_open_worker
+   fun:_dl_catch_exception
+   fun:_dl_open
+   fun:dlopen_doit
+   fun:_dl_catch_exception
+   fun:_dl_catch_error
+   fun:_dlerror_run
+   fun:dlopen@@GLIBC_2.2.5
+   obj:/usr/lib/x86_64-linux-gnu/libGLX.so.0.0.0
+   obj:/usr/lib/x86_64-linux-gnu/libGLX.so.0.0.0
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: definite
+   fun:malloc
+   fun:FcPatternObjectInsertElt
+   fun:FcPatternObjectAddWithBinding
+   fun:FcPatternAppend
+   fun:FcEndElement
+   obj:/home/joacko/anaconda3/lib/libxml2.so.2.9.9
+   obj:*
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   fun:_XlcCreateDefaultCharSet
+   fun:_XlcAddCT
+   fun:_XlcInitCTInfo
+   obj:/usr/lib/x86_64-linux-gnu/libX11.so.6.3.0
+   obj:/usr/lib/x86_64-linux-gnu/libX11.so.6.3.0
+   fun:_XlcCreateLC
+   fun:_XlcUtf8Loader
+   fun:_XOpenLC
+   fun:_XlcCurrentLC
+   fun:XmbTextListToTextProperty
+   fun:_ZN10QXcbWindow14setWindowTitleERK7QString
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   fun:FcEditCreate
+   fun:FcEndElement
+   obj:/home/joacko/anaconda3/lib/libxml2.so.2.9.9
+   obj:*
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   fun:FcRuleCreate
+   fun:FcEndElement
+   obj:/home/joacko/anaconda3/lib/libxml2.so.2.9.9
+   obj:*
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   fun:strdup
+   fun:_dl_map_object
+   fun:dl_open_worker
+   fun:_dl_catch_exception
+   fun:_dl_open
+   fun:dlopen_doit
+   fun:_dl_catch_exception
+   fun:_dl_catch_error
+   fun:_dlerror_run
+   fun:dlopen@@GLIBC_2.2.5
+   obj:/home/joacko/anaconda3/lib/libQt5Core.so.5.9.7
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   fun:open_path
+   fun:_dl_map_object
+   fun:openaux
+   fun:_dl_catch_exception
+   fun:_dl_map_object_deps
+   fun:dl_open_worker
+   fun:_dl_catch_exception
+   fun:_dl_open
+   fun:dlopen_doit
+   fun:_dl_catch_exception
+   fun:_dl_catch_error
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:calloc
+   obj:/home/joacko/anaconda3/lib/libdbus-1.so.3.24.0
+   obj:*
+   obj:/home/joacko/anaconda3/lib/libdbus-1.so.3.24.0
+   obj:*
+   obj:*
+   obj:*
+   obj:/home/joacko/anaconda3/lib/libdbus-1.so.3.24.0
+   obj:*
+   obj:*
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   fun:_XlcAddCharSet
+   fun:_XlcAddCT
+   fun:_XlcInitCTInfo
+   obj:/usr/lib/x86_64-linux-gnu/libX11.so.6.3.0
+   obj:/usr/lib/x86_64-linux-gnu/libX11.so.6.3.0
+   fun:_XlcCreateLC
+   fun:_XlcUtf8Loader
+   fun:_XOpenLC
+   fun:_XlcCurrentLC
+   fun:XmbTextListToTextProperty
+   fun:_ZN10QXcbWindow14setWindowTitleERK7QString
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   fun:_dl_new_object
+   fun:_dl_map_object_from_fd
+   fun:_dl_map_object
+   fun:dl_open_worker
+   fun:_dl_catch_exception
+   fun:_dl_open
+   fun:dlopen_doit
+   fun:_dl_catch_exception
+   fun:_dl_catch_error
+   fun:_dlerror_run
+   fun:dlopen@@GLIBC_2.2.5
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   obj:/usr/lib/x86_64-linux-gnu/libX11.so.6.3.0
+   obj:/usr/lib/x86_64-linux-gnu/libX11.so.6.3.0
+   obj:/usr/lib/x86_64-linux-gnu/libX11.so.6.3.0
+   fun:_XlcCreateLocaleDataBase
+   obj:/usr/lib/x86_64-linux-gnu/libX11.so.6.3.0
+   obj:/usr/lib/x86_64-linux-gnu/libX11.so.6.3.0
+   fun:_XlcCreateLC
+   fun:_XlcUtf8Loader
+   fun:_XOpenLC
+   fun:_XlcCurrentLC
+   fun:XmbTextListToTextProperty
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   fun:strdup
+   fun:FcRuleSetCreate
+   fun:FcConfigParseAndLoadFromMemoryInternal
+   fun:_FcConfigParse
+   fun:_FcConfigParse
+   fun:FcEndElement
+   obj:/home/joacko/anaconda3/lib/libxml2.so.2.9.9
+   obj:*
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   fun:strdup
+   fun:FcStrSetAdd
+   fun:_FcConfigParse
+   fun:_FcConfigParse
+   fun:FcEndElement
+   obj:/home/joacko/anaconda3/lib/libxml2.so.2.9.9
+   obj:*
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   fun:FcRuleSetCreate
+   fun:FcConfigParseAndLoadFromMemoryInternal
+   fun:_FcConfigParse
+   fun:_FcConfigParse
+   fun:FcEndElement
+   obj:/home/joacko/anaconda3/lib/libxml2.so.2.9.9
+   obj:*
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   fun:strdup
+   obj:/usr/lib/x86_64-linux-gnu/libX11.so.6.3.0
+   obj:/usr/lib/x86_64-linux-gnu/libX11.so.6.3.0
+   fun:_XlcCreateLocaleDataBase
+   obj:/usr/lib/x86_64-linux-gnu/libX11.so.6.3.0
+   obj:/usr/lib/x86_64-linux-gnu/libX11.so.6.3.0
+   fun:_XlcCreateLC
+   fun:_XlcUtf8Loader
+   fun:_XOpenLC
+   fun:_XlcCurrentLC
+   fun:XmbTextListToTextProperty
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:calloc
+   fun:_dl_check_map_versions
+   fun:dl_open_worker
+   fun:_dl_catch_exception
+   fun:_dl_open
+   fun:dlopen_doit
+   fun:_dl_catch_exception
+   fun:_dl_catch_error
+   fun:_dlerror_run
+   fun:dlopen@@GLIBC_2.2.5
+   obj:*
+   obj:*
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   fun:_dl_new_object
+   fun:_dl_map_object_from_fd
+   fun:_dl_map_object
+   fun:openaux
+   fun:_dl_catch_exception
+   fun:_dl_map_object_deps
+   fun:dl_open_worker
+   fun:_dl_catch_exception
+   fun:_dl_open
+   fun:dlopen_doit
+   fun:_dl_catch_exception
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:calloc
+   obj:/usr/lib/x86_64-linux-gnu/libX11.so.6.3.0
+   obj:/usr/lib/x86_64-linux-gnu/libX11.so.6.3.0
+   obj:/usr/lib/x86_64-linux-gnu/libX11.so.6.3.0
+   fun:_XlcCreateLC
+   fun:_XlcUtf8Loader
+   fun:_XOpenLC
+   fun:_XlcCurrentLC
+   fun:XmbTextListToTextProperty
+   fun:_ZN10QXcbWindow14setWindowTitleERK7QString
+   fun:_ZN10QXcbWindow6createEv
+   fun:_ZNK15QXcbIntegration20createPlatformWindowEP7QWindow
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   fun:FcPtrListIterAdd
+   fun:FcRuleSetAdd
+   fun:FcEndElement
+   obj:/home/joacko/anaconda3/lib/libxml2.so.2.9.9
+   obj:*
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   fun:FcHashTableCreate
+   fun:FcConfigCreate
+   fun:FcInitLoadOwnConfig
+   fun:FcInitLoadOwnConfigAndFonts
+   fun:FcConfigEnsure
+   fun:FcConfigInit
+   obj:/home/joacko/anaconda3/lib/libQt5XcbQpa.so.5.9.7
+   obj:/home/joacko/anaconda3/lib/libQt5Gui.so.5.9.7
+   fun:_ZN13QFontDatabase8findFontERK8QFontDefi
+   fun:_ZN13QFontDatabase4loadEPK12QFontPrivatei
+   fun:_ZNK12QFontPrivate15engineForScriptEi
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:calloc
+   obj:/home/joacko/anaconda3/lib/libglib-2.0.so.0.5600.2
+   obj:*
+   obj:/home/joacko/anaconda3/lib/libglib-2.0.so.0.5600.2
+   obj:*
+   obj:*
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   fun:FcRuleSetCreate
+   fun:FcConfigParseAndLoadFromMemoryInternal
+   fun:_FcConfigParse
+   fun:_FcConfigParse
+   fun:FcInitLoadOwnConfig
+   fun:FcInitLoadOwnConfigAndFonts
+   fun:FcConfigEnsure
+   fun:FcConfigInit
+   obj:/home/joacko/anaconda3/lib/libQt5XcbQpa.so.5.9.7
+   obj:/home/joacko/anaconda3/lib/libQt5Gui.so.5.9.7
+   fun:_ZN13QFontDatabase8findFontERK8QFontDefi
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:realloc
+   obj:/home/joacko/anaconda3/lib/libdbus-1.so.3.24.0
+   obj:*
+   obj:*
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:realloc
+   obj:/home/joacko/anaconda3/lib/libdbus-1.so.3.24.0
+   obj:*
+   obj:*
+   obj:*
+   obj:/home/joacko/anaconda3/lib/libdbus-1.so.3.24.0
+   obj:*
+   obj:/usr/lib/valgrind/memcheck-amd64-linux
+   obj:*
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: indirect
+   fun:realloc
+   obj:/home/joacko/anaconda3/lib/libdbus-1.so.3.24.0
+   obj:*
+   obj:*
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: indirect
+   fun:realloc
+   obj:/home/joacko/anaconda3/lib/libdbus-1.so.3.24.0
+   obj:*
+   obj:*
+   obj:*
+   obj:/home/joacko/anaconda3/lib/libdbus-1.so.3.24.0
+   obj:*
+   obj:/usr/lib/valgrind/memcheck-amd64-linux
+   obj:*
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:calloc
+   fun:_XlcCreateLocaleDataBase
+   obj:/usr/lib/x86_64-linux-gnu/libX11.so.6.3.0
+   obj:/usr/lib/x86_64-linux-gnu/libX11.so.6.3.0
+   fun:_XlcCreateLC
+   fun:_XlcUtf8Loader
+   fun:_XOpenLC
+   fun:_XlcCurrentLC
+   fun:XmbTextListToTextProperty
+   fun:_ZN10QXcbWindow14setWindowTitleERK7QString
+   fun:_ZN10QXcbWindow6createEv
+   fun:_ZNK15QXcbIntegration20createPlatformWindowEP7QWindow
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   fun:FcStrCanonAbsoluteFilename
+   fun:FcStrSetAddFilename
+   fun:FcConfigAddCache
+   fun:FcConfigAddDirList
+   fun:FcConfigBuildFonts
+   fun:FcInitLoadOwnConfigAndFonts
+   fun:FcConfigEnsure
+   fun:FcConfigInit
+   obj:/home/joacko/anaconda3/lib/libQt5XcbQpa.so.5.9.7
+   obj:/home/joacko/anaconda3/lib/libQt5Gui.so.5.9.7
+   fun:_ZN13QFontDatabase8findFontERK8QFontDefi
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   fun:strdup
+   fun:FcRuleSetCreate
+   fun:FcConfigParseAndLoadFromMemoryInternal
+   fun:_FcConfigParse
+   fun:_FcConfigParse
+   fun:FcInitLoadOwnConfig
+   fun:FcInitLoadOwnConfigAndFonts
+   fun:FcConfigEnsure
+   fun:FcConfigInit
+   obj:/home/joacko/anaconda3/lib/libQt5XcbQpa.so.5.9.7
+   obj:/home/joacko/anaconda3/lib/libQt5Gui.so.5.9.7
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   fun:strdup
+   fun:FcStrSetAdd
+   fun:_FcConfigParse
+   fun:_FcConfigParse
+   fun:FcInitLoadOwnConfig
+   fun:FcInitLoadOwnConfigAndFonts
+   fun:FcConfigEnsure
+   fun:FcConfigInit
+   obj:/home/joacko/anaconda3/lib/libQt5XcbQpa.so.5.9.7
+   obj:/home/joacko/anaconda3/lib/libQt5Gui.so.5.9.7
+   fun:_ZN13QFontDatabase8findFontERK8QFontDefi
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:realloc
+   fun:FcFontSetAdd
+   fun:FcConfigAddCache
+   fun:FcConfigAddDirList
+   fun:FcConfigBuildFonts
+   fun:FcInitLoadOwnConfigAndFonts
+   fun:FcConfigEnsure
+   fun:FcConfigInit
+   obj:/home/joacko/anaconda3/lib/libQt5XcbQpa.so.5.9.7
+   obj:/home/joacko/anaconda3/lib/libQt5Gui.so.5.9.7
+   fun:_ZN13QFontDatabase8findFontERK8QFontDefi
+   fun:_ZN13QFontDatabase4loadEPK12QFontPrivatei
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   fun:FcTestCreate
+   fun:FcEndElement
+   obj:/home/joacko/anaconda3/lib/libxml2.so.2.9.9
+   obj:*
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   fun:FcCacheInsert
+   fun:FcDirCacheMapFd
+   fun:FcDirCacheMapHelper
+   fun:FcDirCacheProcess
+   fun:FcDirCacheLoad
+   fun:FcDirCacheRead
+   fun:FcConfigAddDirList
+   fun:FcConfigBuildFonts
+   fun:FcInitLoadOwnConfigAndFonts
+   fun:FcConfigEnsure
+   fun:FcConfigInit
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:calloc
+   fun:_XlcCreateDefaultCharSet
+   fun:_XlcAddCT
+   fun:_XlcInitCTInfo
+   obj:/usr/lib/x86_64-linux-gnu/libX11.so.6.3.0
+   obj:/usr/lib/x86_64-linux-gnu/libX11.so.6.3.0
+   fun:_XlcCreateLC
+   fun:_XlcUtf8Loader
+   fun:_XOpenLC
+   fun:_XlcCurrentLC
+   fun:XmbTextListToTextProperty
+   fun:_ZN10QXcbWindow14setWindowTitleERK7QString
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:calloc
+   obj:/usr/lib/x86_64-linux-gnu/libX11.so.6.3.0
+   obj:/usr/lib/x86_64-linux-gnu/libX11.so.6.3.0
+   fun:_XlcCreateLocaleDataBase
+   obj:/usr/lib/x86_64-linux-gnu/libX11.so.6.3.0
+   obj:/usr/lib/x86_64-linux-gnu/libX11.so.6.3.0
+   fun:_XlcCreateLC
+   fun:_XlcUtf8Loader
+   fun:_XOpenLC
+   fun:_XlcCurrentLC
+   fun:XmbTextListToTextProperty
+   fun:_ZN10QXcbWindow14setWindowTitleERK7QString
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:calloc
+   fun:_XrmInternalStringToQuark
+   fun:_XlcGetCharSet
+   fun:_XlcAddCT
+   fun:_XlcInitCTInfo
+   obj:/usr/lib/x86_64-linux-gnu/libX11.so.6.3.0
+   obj:/usr/lib/x86_64-linux-gnu/libX11.so.6.3.0
+   fun:_XlcCreateLC
+   fun:_XlcUtf8Loader
+   fun:_XOpenLC
+   fun:_XlcCurrentLC
+   fun:XmbTextListToTextProperty
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: definite
+   fun:calloc
+   obj:/home/joacko/anaconda3/lib/libdbus-1.so.3.24.0
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:calloc
+   fun:_dl_check_map_versions
+   fun:dl_open_worker
+   fun:_dl_catch_exception
+   fun:_dl_open
+   fun:dlopen_doit
+   fun:_dl_catch_exception
+   fun:_dl_catch_error
+   fun:_dlerror_run
+   fun:dlopen@@GLIBC_2.2.5
+   obj:/home/joacko/anaconda3/lib/libQt5Core.so.5.9.7
+   obj:/home/joacko/anaconda3/lib/libQt5Core.so.5.9.7
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   fun:FcConfigAllocExpr
+   fun:FcPopExpr
+   fun:FcPopBinary
+   fun:FcEndElement
+   obj:/home/joacko/anaconda3/lib/libxml2.so.2.9.9
+   obj:*
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   obj:/usr/lib/x86_64-linux-gnu/libX11.so.6.3.0
+   fun:_XrmInternalStringToQuark
+   fun:_XlcGetCharSet
+   fun:_XlcAddCT
+   fun:_XlcInitCTInfo
+   obj:/usr/lib/x86_64-linux-gnu/libX11.so.6.3.0
+   obj:/usr/lib/x86_64-linux-gnu/libX11.so.6.3.0
+   fun:_XlcCreateLC
+   fun:_XlcUtf8Loader
+   fun:_XOpenLC
+   fun:_XlcCurrentLC
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   obj:/usr/lib/x86_64-linux-gnu/libX11.so.6.3.0
+   fun:_XrmInternalStringToQuark
+   fun:_XlcGetLocaleDataBase
+   obj:/usr/lib/x86_64-linux-gnu/libX11.so.6.3.0
+   obj:/usr/lib/x86_64-linux-gnu/libX11.so.6.3.0
+   fun:_XlcCreateLC
+   fun:_XlcUtf8Loader
+   fun:_XOpenLC
+   fun:_XlcCurrentLC
+   fun:XmbTextListToTextProperty
+   fun:_ZN10QXcbWindow14setWindowTitleERK7QString
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   fun:FcConfigAllocExpr
+   fun:FcParseFamilies
+   fun:FcEndElement
+   obj:/home/joacko/anaconda3/lib/libxml2.so.2.9.9
+   obj:*
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:calloc
+   fun:_dl_new_object
+   fun:_dl_map_object_from_fd
+   fun:_dl_map_object
+   fun:dl_open_worker
+   fun:_dl_catch_exception
+   fun:_dl_open
+   fun:dlopen_doit
+   fun:_dl_catch_exception
+   fun:_dl_catch_error
+   fun:_dlerror_run
+   fun:dlopen@@GLIBC_2.2.5
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:calloc
+   fun:_dl_new_object
+   fun:_dl_map_object_from_fd
+   fun:_dl_map_object
+   fun:openaux
+   fun:_dl_catch_exception
+   fun:_dl_map_object_deps
+   fun:dl_open_worker
+   fun:_dl_catch_exception
+   fun:_dl_open
+   fun:dlopen_doit
+   fun:_dl_catch_exception
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: reachable
+   fun:malloc
+   fun:FcConfigAllocExpr
+   fun:FcEndElement
+   obj:/home/joacko/anaconda3/lib/libxml2.so.2.9.9
+   obj:*
+}

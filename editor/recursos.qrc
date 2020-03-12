@@ -1,0 +1,39 @@
+<RCC>
+    <qresource prefix="/">
+        <file>resources/abrir.png</file>
+        <file>resources/bloqueRoca.png</file>
+        <file>resources/guardar.png</file>
+        <file>resources/nuevo.png</file>
+        <file>resources/bloqueMetal.png</file>
+        <file>resources/acido.png</file>
+        <file>resources/bloquesMetalDiagonal.png</file>
+        <file>resources/boton.png</file>
+        <file>resources/roca1.png</file>
+        <file>resources/emisorEnergia.png</file>
+        <file>resources/receptorEnergia.png</file>
+        <file>resources/shell.png</file>
+        <file>resources/fond.svg</file>
+        <file>resources/acido2.png</file>
+        <file>resources/bloquesMetalDiagonal0.png</file>
+        <file>resources/bloquesMetalDiagonal270.png</file>
+        <file>resources/bloquesMetalDiagonal180.png</file>
+        <file>resources/bloquesMetalDiagonal90.png</file>
+        <file>resources/emisorEnergia0.png</file>
+        <file>resources/emisorEnergia90.png</file>
+        <file>resources/emisorEnergia180.png</file>
+        <file>resources/emisorEnergia270.png</file>
+        <file>resources/receptorEnergia0.png</file>
+        <file>resources/receptorEnergia90.png</file>
+        <file>resources/receptorEnergia180.png</file>
+        <file>resources/receptorEnergia270.png</file>
+        <file>resources/barreraDeEnergiaHorizontal.png</file>
+        <file>resources/barreraDeEnergiaVertical.png</file>
+        <file>resources/compuerta1.png</file>
+        <file>resources/compuerta2.png</file>
+        <file>resources/compuerta3.png</file>
+        <file>resources/cake.png</file>
+        <file>resources/fond.png</file>
+        <file>resources/configuracionCompuertas.png</file>
+        <file>resources/icono_editor.png</file>
+    </qresource>
+</RCC>
