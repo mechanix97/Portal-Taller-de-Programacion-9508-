@@ -1,10 +1,6 @@
 # TP Final Taller de Programacion 1
 
-| Integrantes    | Padron |
-| -------------- | ------ |
-| Blanco Joaquin | 94653  |
-| Bravo Victor   | 98882  |
-| Rack Lucas     | 99425  |
+[![YouTube](http://i.ytimg.com/vi/zYuNiUTCyk0/hqdefault.jpg)](https://www.youtube.com/watch?v=zYuNiUTCyk0)
 
 ## Informes
 [Manual de Usuario](https://www.overleaf.com/8662443479fxhrvfhpcpjb)    
